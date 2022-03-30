@@ -45,6 +45,8 @@ bool hasPath(int **edges, int n, int s, int e, bool *visited)
         }
     }
 
+    // visited[s] = false;
+
     return false;
 }
 
